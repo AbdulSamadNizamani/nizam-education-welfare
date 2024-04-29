@@ -1,0 +1,112 @@
+@media screen and (max-width:586px) {
+    .bottom{
+        position: relative;
+        top: 1px;
+    }
+    .img-welfare{
+        border: 1px solid black;
+    }
+}
+@media screen and (max-width:1000px) {
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom{
+        margin-bottom: 1vw;
+    }
+    .input-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .menu{
+        margin-bottom: 4px;
+    }
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 0;
+        left: 1px;
+    }
+    .lines{
+        width: 33px;
+        background-color: rgb(115, 6, 6);
+        height: 4px;
+        margin: 5px 3px;
+    }
+    .input-list input{
+        font-size: 12px;
+    }
+    .bdn{
+        font-size: 12px;
+    }
+    .donate{
+        margin-bottom: 2vw;
+    }
+    .bottom{
+        margin-bottom: 6px;
+    }
+    .img-list img{
+        width: 9vw;
+        height: 9vw;
+    }
+    .nav-list li a{
+        font-size: 3vw;
+    }
+    .navbar .nav-list li:hover .menu-1 ul li{
+        width: 12vw;
+    padding: 14px;
+    }
+    .navbar .nav-list li:hover .menu-1{
+        margin-top: 55px;
+    margin-left: -55px;
+    }
+    .navbar .nav-list li:hover .menu2{
+        margin-top: 40px;
+    margin-left: -40px;
+    }
+    .navbar .nav-list li:hover .menu2 ul li{
+        width: 19vw;
+    padding: 18px;
+    }
+    
+}
+@media screen and (max-width:365px) {
+    .lines{
+        width: 24px;
+        height: 4px;
+    }
+}
+@media screen and (max-width:257px) {
+    .input-list input{
+        width: 59vw;
+        font-size: 10px;
+    }
+    .bdn{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:1290px) {
+    .input-list input{
+        position: relative;
+        top: 17px;
+    }
+    .bdn{
+        position: relative;
+        top: 17px;
+    }
+}
+@media screen and (max-width:127px) {
+    .input-list input{
+        width: 40px;
+    }
+}
+@media screen and (max-width:290px) {
+    footer{
+        font-size: 2vw;
+    }
+}
